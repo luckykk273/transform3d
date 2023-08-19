@@ -2,7 +2,7 @@
 C library for 3D transformations.
 
 # Preface
-All conversion functions and testing cases in this repository are just the C version of [pytransform3d](https://github.com/dfki-ric/pytransform3d).
+All conversion functions and testing cases in this repository are the C version of [pytransform3d](https://github.com/dfki-ric/pytransform3d).
 
 # Prerequisites
 I have tested the library in Windows 11, but it should be easy to compile in other platforms.
@@ -40,6 +40,8 @@ path/of/transform3d/tests>pytest
 1. Rewrite in C.
 2. Compile and build the C library to dll and write a C library wrapper in Python to test functions more convenient.
 
+# License
+This library is redistributed from [pytransform3d](https://github.com/dfki-ric/pytransform3d) under [BSD 3-Clause License](https://github.com/luckykk273/transform3d/blob/main/LICENSE).
+
 # Reference
-[pytransform3d](https://github.com/dfki-ric/pytransform3d)  
-**NOTE: Again this repository are just the C version of [pytransform3d](https://github.com/dfki-ric/pytransform3d).**
+[pytransform3d](https://github.com/dfki-ric/pytransform3d)

@@ -1,4 +1,12 @@
+#ifndef CONVERSIONS_H_
+
+#define CONVERSIONS_H_
+
 #include <stdbool.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /*
  * Conversions to rotation matrix
@@ -61,3 +69,9 @@ void quat_to_euler(double *e, double *q, int i, int j, int k, bool extrinsic);
 
 // ref: https://arc.aiaa.org/doi/abs/10.2514/1.16622
 void rmat_to_euler(double *e, double (*m)[3], int i, int j, int k, bool extrinsic);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // CONVERSIONS_H_

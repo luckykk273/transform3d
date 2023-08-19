@@ -1,4 +1,12 @@
+#ifndef UTILS_H_
+
+#define UTILS_H_
+
 #include <stdbool.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /*
  * Helper functions
@@ -58,3 +66,9 @@ void normalize_compact_axang(double *ca);
 
 // Normalize the quaternion so that it is a unit quaternion
 void normalize_quat(double *q);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // UTILS_H_

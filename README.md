@@ -35,6 +35,15 @@ There are lots of testing cases in [pytransform3d]() to carefully test the corre
 path/of/transform3d>cd tests
 path/of/transform3d/tests>pytest
 ```
+# TODO
+1. Detailed documentation
+    1. Badges
+    2. Comments for functions
+2. Support and test on both Windows and Linux platforms
+    1. Rewrite CMakeLists.txt
+    2. Add Scripts folder and scripts for different platforms
+3. Redesign it to the library that can be easily used in other projects(as a submodule or subtree)
+    1. Rewrite CMakeLists.txt more flexible
 
 # Contributions
 1. Rewrite in C.

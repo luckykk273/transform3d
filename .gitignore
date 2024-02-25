@@ -1,0 +1,7 @@
+.venv
+.vscode
+build
+tests/__pycache__
+tests/.pytest_cache
+.git
+main.exe

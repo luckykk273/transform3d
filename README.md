@@ -15,7 +15,7 @@ set(CMAKE_C_COMPILER "path/to/your/gcc")
 ```
 
 ## Cmake
-I write a simple CMakeLists.txt to compile and build the dll file. I also use MSYS2 to install make and one can [make a link](https://stackoverflow.com/questions/51755089/where-is-make-on-msys2-mingw-w64) between `make` and `mingw32-make.exe` for convenience.
+I write a simple CMakeLists.txt to compile and build all the static/dynamic/executable files. I also use MSYS2 to install make and one can [make a link](https://stackoverflow.com/questions/51755089/where-is-make-on-msys2-mingw-w64) between `make` and `mingw32-make.exe` for convenience.
 
 ## Scripts
 I write a simple `build.bat` to run compiling and building. Feel free to write your own scripts.
